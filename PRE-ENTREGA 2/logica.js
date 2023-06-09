@@ -1,5 +1,5 @@
 //! SEGUNDA PRE ENTREGA
-
+console.log("Productos Disponibles:");
 console.table(productos);
 let contenedorProds = document.getElementById('misprods');
 
@@ -18,6 +18,7 @@ while(precioMax != 0){
     }else{
         //ya tenemos un numero valido
         const prodsFiltrados = filtrarPorPrecio(precioMax);
+        console.log("Productos Filtrados:");
         console.table(prodsFiltrados);
         renderizarProductos(prodsFiltrados);
         break
