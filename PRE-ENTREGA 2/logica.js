@@ -1,3 +1,4 @@
+//! SEGUNDA PRE ENTREGA
 
 console.table(productos);
 let contenedorProds = document.getElementById('misprods');
